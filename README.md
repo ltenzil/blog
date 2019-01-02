@@ -1,4 +1,10 @@
 # Blog
+PreRequisites:
+  Elixir
+  Phoenix
+  Postgres
+  Nodejs
+  needs to be installed
 
 To start your Phoenix server:
 
