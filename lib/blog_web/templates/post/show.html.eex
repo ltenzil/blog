@@ -5,6 +5,9 @@
   <li>
     <strong>Title:</strong>
     <%= @post.title %>
+    <span>
+      <small>written by <%= @post.user.username %></small>
+    </span>
   </li>
 
   <li>

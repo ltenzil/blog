@@ -39,7 +39,9 @@ defmodule Blog.CMS do
 
   """
   def get_post!(id) do
-    Repo.get!(Post, id)
+    Post
+    |> Repo.get!(id)
+    |> Repo.preload(:user)
   end
 
   @doc """
