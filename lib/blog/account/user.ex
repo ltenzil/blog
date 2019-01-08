@@ -8,7 +8,7 @@ defmodule Blog.Account.User do
     field :email, :string
     field :password_digest, :string
     field :username, :string
-    has_many :posts, Blog.Post
+    has_many :posts, Blog.CMS.Post
 
     timestamps()
 
